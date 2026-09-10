@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(254, 253, 254);
+  color: rgb(64, 11, 113);
+  background-color: rgb(255, 205, 248);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  font-size: large;
+}
+
+.cursor-dot {
+  width: 12px;
+  height: 12px;
+  background: purple;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+}
